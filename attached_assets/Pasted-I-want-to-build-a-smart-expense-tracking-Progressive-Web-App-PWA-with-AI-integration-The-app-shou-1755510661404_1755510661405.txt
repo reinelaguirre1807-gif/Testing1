@@ -1,0 +1,129 @@
+I want to build a smart expense tracking Progressive Web App (PWA) with AI integration. The app should feel modern, clean, and visually similar to YouTube Music’s UI, with support for both Light Mode (#FFFFFF) and Dark Mode (#000000).
+
+🔑 Core Features
+
+User Login System
+
+Email + password authentication.
+
+Store data securely per user.
+
+Support multi-device sync for Pro users.
+
+Dashboard (Layer-Based & Customizable)
+
+Default layout includes:
+
+Accounts (Cash, Debit, Credit, etc.)
+
+Total Expenses
+
+Graph (monthly/weekly trends)
+
+Goals
+
+Subscriptions
+
+Users can reorder layers in Pro (e.g., move Graph above Accounts).
+
+Accounts System (Customizable)
+
+Users can rename accounts (e.g., “BDO Account,” “BPI Account,” “Cash,” etc.).
+
+Users can specify currency (USD, PHP, etc.).
+
+Users can add or delete accounts (Pro: unlimited, Free: 3 max).
+
+Transaction Logging (AI-Powered in Pro)
+
+AI parses natural language replies:
+
+“Yes, I bought ice cream for $5 using cash” → logs as expense in Cash.
+
+“I got $500, add it to my BDO account” → logs as income in BDO.
+
+If an account doesn’t exist (e.g., “GCash”), the app should prompt to create it.
+
+Free users must log expenses manually (no AI).
+
+Push Notifications (Smart Reply)
+
+Example: “Did you purchase something recently? Don’t forget to add it.”
+
+Includes Reply button → user can reply directly from notification.
+
+AI (Pro only) extracts data (amount, category, payment method, income/expense) and updates balance automatically.
+
+Insights & Reports (Pro Only)
+
+AI-generated monthly/weekly summaries.
+
+Notifications like “You spent $100 more this month than last.”
+
+Predictive insights: “You’re on track to overspend on food this month.”
+
+Category breakdowns and advanced charts.
+
+Subscription Tracking
+
+Detect recurring expenses (Netflix, Spotify, etc.).
+
+Remind users before renewal.
+
+Budget Goals (Pro)
+
+Users can set category limits (e.g., $200 for food).
+
+AI notifies them when close to the limit.
+
+Account Transfers (Pro)
+
+Example: “Transfer $100 from Cash to BDO.”
+
+💳 Subscription & Payment System
+
+Free Plan (Ad-Supported):
+
+Max 3 accounts.
+
+Fixed dashboard (no customization).
+
+Ads in-app.
+
+Manual transaction input only (no AI parsing).
+
+Basic charts and history.
+
+No summaries or smart reminders.
+
+Pro Plan ($10/month, No Ads):
+
+No ads.
+
+Unlimited accounts.
+
+Customizable dashboard (drag & drop layers).
+
+AI-powered notifications & quick replies.
+
+AI summaries, insights, and predictive spending analysis.
+
+Multi-device sync.
+
+Export data (CSV, Excel, PDF).
+
+Subscription tracking with reminders.
+
+Budget goals with notifications.
+
+Transfers between accounts.
+
+Payment Gateway:
+
+Integrate PayPal for Pro subscription purchases.
+
+Handle payments securely.
+
+Automatic billing (monthly).
+
+Update user’s plan status after successful payment.
